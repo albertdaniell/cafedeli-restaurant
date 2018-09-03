@@ -1,0 +1,17 @@
+.navbar-default {
+    background-color:transparent;
+    border-color:transparent;
+}
+
+#slider {
+    background-image:url('/img/bckg.jpg');
+    background-size: cover;
+    width:100%;
+}
+
+.item {
+    color:#fff;
+    padding: 250px 0;
+}
+
+.

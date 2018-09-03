@@ -1,0 +1,261 @@
+#nav li {}
+
+#nav li:hover {
+    transition: 0.3s;
+    opacity: 0.9;
+    color: red;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 10px;
+    padding: 10px;
+    margin: 20px 0px;
+    display: block;
+}
+
+#nav a:hover {
+    color: red;
+    transition: 0.6s;
+    opacity: ;
+}
+
+#nav {
+    padding: 20px;
+    height: 100%;
+    width: 50%;
+    z-index: 10;
+    background: rgba(0, 0, 0, .95);
+    overflow: auto;
+    text-align: center;
+}
+
+#nav hr {
+    width: 50%;
+}
+
+#nav span {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#cancelid {
+    cursor: pointer;
+    padding-right: 0px;
+    display: block;
+    padding: 5px;
+}
+
+#menubar {
+    margin-top: 5px;
+    margin-right: 15px;
+    background: transparent;
+    color: black;
+    border-radius: 10px;
+    border: 0;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: ;
+    z-index: 10;
+}
+
+#btndiv {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: ;
+    z-index: 10;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    box-shadow: 10px 1px 20px 1px;
+    opacity: 0.9;
+}
+
+#welcome{
+    margin: -50px 0 0 -100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: black;
+    z-index: 15;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0.8;
+    width: 200px;
+    font-family: Century Gothic;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 2px;
+    font-family: Century Gothic;
+}
+
+#coverpage {
+    height: 70%;
+    background-image: url(pics/buffet_easter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    #coverpage {
+        height: 70%;
+        background-image: url(pics/buffet_easter.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#intro {
+    letter-spacing: 10px;
+    color: ;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#headid {
+    background: black;
+    color: white;
+    padding: 1px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#about {
+    padding: 10px;
+    letter-spacing: 3px;
+    height: %;
+    margin-top: 70px;
+    text-align: left;
+}
+
+#aboutcontent {
+    box-shadow: ;
+    padding: 10px;
+    font-size: 15px;
+}
+
+body {
+    background-color: #f7f5f2;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+#whycafe {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    height: %;
+    top: 0;
+    left: 0;
+    margin-top: px;
+}
+
+#whycafe .col-md-3 {
+    padding: 30px;
+}
+
+#menu {
+    height: %;
+    margin: 20px;
+    padding: 20px;
+}
+
+#subscribe {
+    border-radius: 0px;
+    margin: 20px;
+    height: 50px;
+    width: 50%;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#subscribe:hover {
+    background: black;
+    color: white;
+    transition: 0.6s;
+}
+
+.footer {
+    background-color: grey;
+    padding: 20px;
+}
+
+#feedback {
+    padding: 20px;
+}
+
+#gallery img {
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gallery {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#gallery .col-md-4 {}
+
+#contact {
+    margin-bottom: 50px;
+    padding: 25px;
+    background: black;
+    color: wheat;
+    height: ;
+    opacity: ;
+    margin-top: 50px;
+}
+
+#mymodal {
+    position: fixed;
+    margin-top: 200px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    height: 150px;
+    background: black;
+    z-index: 15;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0.9;
+    width: 100%;
+    font-family: Century Gothic;
+    font-size: 18px;
+}
+
+#mymodalbody {
+    background: black;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+}
+
+#cancelmodal {
+    cursor: pointer;
+    display: block;
+    background: red;
+}
